@@ -39,7 +39,9 @@ var brickOffsetTop = 30;
 var brickOffsetLeft = 30;
 var score = 0;
 var lives = 3;
-var counter = 0;
+var myGamePiece;
+var myObstacles = [];
+var myScore;
 
 var bricks = [];
 for(var c=0; c<brickColumnCount; c++) {
@@ -70,6 +72,12 @@ function keyUpHandler(e) {
         leftPressed = false;
     }
 }
+
+function startGame() {
+    myGamePiece = new component(30, 30, "red", 10, 160);
+    myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+    myGameArea.start();
+  }
 
 function mouseMoveHandler(e) {
     var relativeX = e.clientX - canvas.offsetLeft;
