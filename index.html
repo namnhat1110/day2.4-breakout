@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,37 +9,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Breakout</title>
 </head>
+
 <body>
     <canvas id="myCanvas" width="480" height="800"></canvas>
 
-    <h2>Login Page</h2><br>    
-    <div class="login">    
-    <form id="login" method="get" action="login.php">    
-        <label><b>User Name     
-        </b>    
-        </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username">    
-        <br><br>    
-        <label><b>Password     
-        </b>    
-        </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
-        <br><br>    
-        <input type="button" name="log" id="log" value="Log In Here">       
-        <br><br>    
-        <input type="checkbox" id="check">    
-        <span>Remember me</span>    
-        <br><br>    
-        Forgot <a href="#">Password</a>    
-    </form>   
+    <h2>Login Page</h2><br>
+    <div class="login-form">
+        <div id="log-form">
+            <label>
+                <b>User Name</b>
+            </label>
+            <input type="text" id="yourname" placeholder="Username">
+            <br><br>
+            <button id="login"> Log in here</button>
+        </div>
+        
     
-    
-</div>    
+    </div>
 
-
-
-
-
+    <script src="game.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -13,47 +13,37 @@ body
     background-color:#6abadeba;  
     font-family: 'Arial';  
 }  
-.login{  
+.login-form{  
         width: 382px;  
         overflow: hidden;  
         margin: auto;  
         margin: 20 0 0 450px;  
         padding: 80px;  
-        background: #23463f;  
+        background: white;  
         border-radius: 15px ;  
           
 }  
 h2{  
     text-align: center;  
-    color: #277582;  
+    color: black;  
     padding: 20px;  
 }  
 label{  
-    color: #08ffd1;  
+    color: black;  
     font-size: 17px;  
 }  
-#Uname{  
+#yourname{  
     display: block;
     margin-left: auto;
     margin-right: auto;  
     width: 350px;  
     height: 30px;  
-    border: none;  
+    border: solid 1px black;  
     border-radius: 3px;  
     padding-left: 8px;  
 }  
-#Pass{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
-    width: 350px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 3px;  
-    padding-left: 8px;  
       
-}  
-#log{  
+#login{  
     display: block;
     margin-left: auto;
     margin-right: auto;  
@@ -65,12 +55,4 @@ label{
     color: blue;  
   
   
-}  
-span{  
-    color: white;  
-    font-size: 17px;  
-}  
-a{  
-    float: right;  
-    background-color: grey;  
 }  
