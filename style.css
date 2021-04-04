@@ -13,7 +13,7 @@ body
     background-color:#6abadeba;  
     font-family: 'Arial';  
 }  
-.login-form{  
+.login-page{  
         width: 382px;  
         overflow: hidden;  
         margin: auto;  
@@ -53,6 +53,8 @@ label{
     border-radius: 17px;  
     padding-left: 7px;  
     color: blue;  
-  
-  
 }  
+
+#logout-form{
+    display: none;
+}
